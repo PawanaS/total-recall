@@ -112,15 +112,15 @@ console.log('Sorry.you"re too young')
 
 
 
-// // D. Savings account
-var bank_account{
-    var total=0
-for(let i=1; i<=10; i++){
-    total += i;
+// // D. Savings accountc
+const bank_account=i
+while(i<=10){
+console.log(i)
+    i++
 }
-    return total;
 
-}
+
+
 
 
 
