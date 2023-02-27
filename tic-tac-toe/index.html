@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="./index.js defer"></script>
+    <script src="./index.js" defer></script>
     <title>Tic Tac Toe</title>
 </head>
+<body>
 <div>
     <div class = "players">
-       <div class="player1" active >O's Turn></div>
-       <div class="player2" >X's Turn></div>
+       <div class="player1 active" >O's Turn></div>
+       <div class="player2">X's Turn></div>
     </div>
     <div class="game-board">
         <div class="cell"></div>
@@ -24,9 +25,10 @@
         <div class="cell"></div>
         <div class="cell"></div>
     </div>
-    <div class="result">
+    <div class="result inactive">
         <h1>O Win The Game</h1>
         <button> Restart</button>
     </div>
+    <div class="disabled"></div>
 </body>
 </html>
